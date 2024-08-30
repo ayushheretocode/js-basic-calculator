@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="inputs">
+            <input type="number" id="num-one">
+            <input type="number" id="num-two">
+        </div>
+        <div class="buttons">
+            <button id="add-btn" onclick="add()">Add</button>
+            <button id="subtract-btn" onclick="subtract()">Subtract</button>
+            <button id="multiply-btn" onclick="multiply()">Multiply</button>
+            <button id="divide-btn" onclick="divide()">Divide</button>
+        </div>
+        <div class="reset-btn-div">
+            <button id="reset-btn" onclick="reset()">Reset</button>
+        </div>
+        <p id="result">Result: </p>
+    </div>
+</body>
+</html>
